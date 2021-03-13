@@ -1,0 +1,39 @@
+.content {
+  > * {padding-left: 30px;}
+  width: 85%;
+  min-height: 750px;
+  min-width: 600px;
+  background-color: $primary-color;
+
+  p {
+    font-size: 2rem;
+    line-height: 3rem;
+    width: 55%;
+    min-width: 550px;
+  }
+
+  ul, ol, dl {
+    font-size: 1.5rem;
+    list-style-type: circle;
+    margin-left: 20px;
+  }
+
+  img, video {
+    height: 350px;
+    width: 550px;
+    margin-bottom: 30px;
+  }
+  a:link {
+    color: $primary-color;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:visited {
+    color: rgb(164, 164, 167);
+    text-decoration: none;
+  }
+}
